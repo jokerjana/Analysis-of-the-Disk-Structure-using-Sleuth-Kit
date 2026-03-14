@@ -72,5 +72,25 @@ icat.exe -o 2048 C:\forensics\disk.dd 6 > C:\forensics\image.jpg
 ## OUTPUT:
 Disk Structure Analysis Results
 
+<img width="722" height="142" alt="Screenshot 2025-09-13 133914" src="https://github.com/user-attachments/assets/49fbb8d4-4765-41af-af7b-e210a43a7919" />
+
+
+### Create Disk
+<img width="551" height="152" alt="Screenshot 2025-09-13 133922" src="https://github.com/user-attachments/assets/40487cc5-cc90-481c-a3a0-4d83db54e06c" />
+
+
+### mmls 
+```bash
+mmls disk.dd
+```
+### fls
+```bash
+fls -f fat -o 0 disk.dd
+```
+
+<img width="460" height="118" alt="Screenshot 2025-09-13 133928" src="https://github.com/user-attachments/assets/d3df4022-fc15-43ac-8f75-a5d9d66bf4b7" />
+
+<img width="637" height="481" alt="Screenshot 2025-09-13 133653" src="https://github.com/user-attachments/assets/f958f444-0b7d-42cb-9cc3-3e52d8a917b0" />
+
 ## RESULT:
 The analysis was performed successfully using Sleuth Kit, and the disk structure was understood in detail.
